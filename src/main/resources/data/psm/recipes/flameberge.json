@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bBb",
+    "BNB",
+    "bBb"
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:blaze_powder"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "N": {
+      "item": "psm:netherite_flamberge"
+    }
+  },
+  "result": {
+    "item": "psm:flameberge",
+    "count": 1
+  }
+}

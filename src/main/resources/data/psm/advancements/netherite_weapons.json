@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "psm:netherite_half_sword",
+      "psm:netherite_longsword",
+      "psm:netherite_flamberge",
+      "psm:dragons_claw",
+      "psm:bloodbath",
+      "psm:flameberge"
+    ]
+  },
+  "criteria": {
+    "has_netherite_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:netherite_sword"
+        }]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:netherite_sword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_sword",
+      "has_the_recipe"
+    ]
+  ]
+}

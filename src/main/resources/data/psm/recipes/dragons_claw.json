@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "ENE",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "N": {
+      "item": "psm:netherite_half_sword"
+    }
+  },
+  "result": {
+    "item": "psm:dragons_claw",
+    "count": 1
+  }
+}

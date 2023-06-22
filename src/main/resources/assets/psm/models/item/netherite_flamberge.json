@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "psm:item/netherite_flamberge"
+  },
+  "display": {
+    "gui": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 0, 0],
+      "scale": [1, 1, 1]
+    },
+    "ground": {
+      "rotation": [0, 0, 0],
+      "translation": [0, 11.5, 0],
+      "scale": [1.75, 1.75, 1]
+    },
+    "thirdperson_righthand": {
+      "rotation": [45, 90, 0],
+      "translation": [0, 10, 1.75],
+      "scale": [1.75, 1.75, 1]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [45, 90, 0],
+      "translation": [0, 10, 1.75],
+      "scale": [1.75, 1.75, 1]
+    },
+    "firstperson_righthand": {
+      "rotation": [60, 90, 0],
+      "translation": [0, 7.25, 2.25],
+      "scale": [1, 1, 1]
+    },
+    "firstperson_lefthand": {
+      "rotation": [60, -90, 0],
+      "translation": [0, 7.25, 2.25],
+      "scale": [1, 1, 1]
+    },
+    "static": {
+      "rotation": [0, 180, 0],
+      "translation": [0, 0, 0],
+      "scale": [1.15, 1.15, 1]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rRr",
+    "RNR",
+    "rRr"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "N": {
+      "item": "psm:netherite_longsword"
+    }
+  },
+  "result": {
+    "item": "psm:bloodbath",
+    "count": 1
+  }
+
+}

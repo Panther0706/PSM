@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  d",
+    " d ",
+    "D  "
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "result": {
+    "item": "psm:diamond_flamberge",
+    "count": 1
+  }
+}
