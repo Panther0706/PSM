@@ -15,18 +15,11 @@
           "item": "minecraft:iron_sword"
         }]
       }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:iron_sword"
-      }
     }
   },
   "requirements": [
     [
-      "has_iron_sword",
-      "has_the_recipe"
+      "has_iron_sword"
     ]
   ]
 }

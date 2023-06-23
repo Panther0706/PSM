@@ -2,24 +2,22 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "psm:diamond_half_sword",
-      "psm:diamond_longsword",
-      "psm:diamond_flamberge"
+      "psm:dragons_claw"
     ]
   },
   "criteria": {
-    "has_diamond": {
+    "has_netherite_half_sword": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [{
-          "item": "minecraft:diamond_sword"
+          "item": "psm:netherite_half_sword"
         }]
       }
     }
   },
   "requirements": [
     [
-      "has_diamond"
+      "has_netherite_half_sword"
     ]
   ]
 }
