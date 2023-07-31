@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "psm:diamond_star_falchion"
+    }
+  ],
+  "result": {
+    "item": "psm:netherite_star_falchion",
+    "count": 1
+  }
+}

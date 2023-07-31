@@ -13,11 +13,19 @@
           "item": "psm:netherite_flamberge"
         }]
       }
+    },
+    "has_flameberge_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "psm:flameberge"
+      }
     }
   },
+
   "requirements": [
     [
-      "has_netherite_flamberge"
+      "has_netherite_flamberge",
+      "has_flameberge_recipe"
     ]
   ]
 }

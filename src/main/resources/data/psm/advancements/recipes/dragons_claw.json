@@ -13,11 +13,19 @@
           "item": "psm:netherite_half_sword"
         }]
       }
+    },
+    "has_dragons_claw_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "psm:dragons_claw"
+      }
     }
   },
+
   "requirements": [
     [
-      "has_netherite_half_sword"
+      "has_netherite_half_sword",
+      "has_dragons_claw_recipe"
     ]
   ]
 }

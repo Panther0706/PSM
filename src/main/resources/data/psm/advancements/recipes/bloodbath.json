@@ -13,11 +13,19 @@
           "item": "psm:netherite_longsword"
         }]
       }
+    },
+    "has_bloodbath_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "psm:bloodbath"
+      }
     }
   },
+
   "requirements": [
     [
-      "has_netherite_longsword"
+      "has_netherite_longsword",
+      "has_bloodbath_recipe"
     ]
   ]
 }

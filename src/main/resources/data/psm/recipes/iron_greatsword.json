@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i",
+    "I"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "I": {
+      "item": "psm:iron_longsword"
+    }
+  },
+  "result": {
+    "item": "psm:iron_greatsword",
+    "count": 1
+  }
+}

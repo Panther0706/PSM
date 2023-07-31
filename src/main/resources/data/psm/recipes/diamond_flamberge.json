@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "tools",
   "pattern": [
-    "  d",
-    " d ",
-    "D  "
+    " d",
+    "D "
   ],
   "key": {
     "d": {
       "item": "minecraft:diamond"
     },
     "D": {
-      "item": "minecraft:diamond_sword"
+      "item": "psm:diamond_flammard"
     }
   },
   "result": {

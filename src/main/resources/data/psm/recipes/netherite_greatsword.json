@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "n",
+    "N"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "N": {
+      "item": "psm:netherite_longsword"
+    }
+  },
+  "result": {
+    "item": "psm:netherite_greatsword",
+    "count": 1
+  }
+}

@@ -75,16 +75,49 @@ public class PSM
 
             //Iron
             event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
+                    PSMWeapons.IRON_FLAMMENSCHWERT.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
+                    PSMWeapons.IRON_ZWEIHANDER.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
+                    PSMWeapons.IRON_GREATSWORD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
                     PSMWeapons.IRON_FLAMBERGE.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
                     PSMWeapons.IRON_LONGSWORD.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
+                    PSMWeapons.IRON_SCIMITAR.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
+                    PSMWeapons.IRON_STAR_FALCHION.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
+                    PSMWeapons.IRON_FLAMMARD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
                     PSMWeapons.IRON_HALF_SWORD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
+                    PSMWeapons.IRON_KRIS.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.IRON_SWORD.getDefaultInstance(),
+                    PSMWeapons.IRON_DAGGER.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             //Diamond
+            event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
+                    PSMWeapons.DIAMOND_FLAMMENSCHWERT.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
+                    PSMWeapons.DIAMOND_ZWEIHANDER.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
+                    PSMWeapons.DIAMOND_GREATSWORD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
                     PSMWeapons.DIAMOND_FLAMBERGE.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -92,10 +125,34 @@ public class PSM
                     PSMWeapons.DIAMOND_LONGSWORD.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
+                    PSMWeapons.DIAMOND_SCIMITAR.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
+                    PSMWeapons.DIAMOND_STAR_FALCHION.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
+                    PSMWeapons.DIAMOND_FLAMMARD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
                     PSMWeapons.DIAMOND_HALF_SWORD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
+                    PSMWeapons.DIAMOND_KRIS.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.DIAMOND_SWORD.getDefaultInstance(),
+                    PSMWeapons.DIAMOND_DAGGER.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             //Netherite
+            event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
+                    PSMWeapons.NETHERITE_FLAMMENSCHWERT.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
+                    PSMWeapons.NETHERITE_ZWEIHANDER.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
+                    PSMWeapons.NETHERITE_GREATSWORD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
                     PSMWeapons.NETHERITE_FLAMBERGE.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -103,7 +160,22 @@ public class PSM
                     PSMWeapons.NETHERITE_LONGSWORD.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
+                    PSMWeapons.NETHERITE_SCIMITAR.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
+                    PSMWeapons.NETHERITE_STAR_FALCHION.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
+                    PSMWeapons.NETHERITE_FLAMMARD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
                     PSMWeapons.NETHERITE_HALF_SWORD.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
+                    PSMWeapons.NETHERITE_KRIS.get().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.NETHERITE_SWORD.getDefaultInstance(),
+                    PSMWeapons.NETHERITE_DAGGER.get().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }

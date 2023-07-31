@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "psm:diamond_dagger",
+      "psm:diamond_kris",
+      "psm:diamond_half_sword",
+      "psm:diamond_half_sword_from_dagger",
+      "psm:diamond_flammard",
+      "psm:diamond_flammard_from_kris",
+      "psm:diamond_star_falchion",
+      "psm:diamond_scimitar",
+      "psm:diamond_longsword",
+      "psm:diamond_flamberge",
+      "psm:diamond_greatsword",
+      "psm:diamond_zweihander",
+      "psm:diamond_flammenschwert"
+    ]
+  },
+  "criteria": {
+    "has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:diamond"
+        }]
+      }
+    },
+    "has_diamond_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "psm:diamond_dagger"
+      }
+    }
+  },
+
+  "requirements": [
+    [
+      "has_diamond",
+      "has_diamond_recipe"
+    ]
+  ]
+}

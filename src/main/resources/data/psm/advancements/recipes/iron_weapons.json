@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "psm:iron_dagger",
+      "psm:iron_kris",
+      "psm:iron_half_sword",
+      "psm:iron_half_sword_from_dagger",
+      "psm:iron_flammard",
+      "psm:iron_flammard_from_kris",
+      "psm:iron_star_falchion",
+      "psm:iron_scimitar",
+      "psm:iron_longsword",
+      "psm:iron_flamberge",
+      "psm:iron_greatsword",
+      "psm:iron_zweihander",
+      "psm:iron_flammenschwert"
+    ]
+  },
+  "criteria": {
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:diamond"
+        }]
+      }
+    },
+    "has_iron_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "psm:iron_dagger"
+      }
+    }
+  },
+
+  "requirements": [
+    [
+      "has_iron",
+      "has_iron_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "psm:item/iron_scimitar"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [45, 90, 0],
+			"translation": [0, 7, 1.5],
+			"scale": [1.15, 1.15, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, -90, 0],
+			"translation": [0, 7, 1.5],
+			"scale": [1.15, 1.15, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [60, 90, 0],
+			"translation": [0, 6.5, 0.5],
+			"scale": [1.1, 1.1, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [60, -90, 0],
+			"translation": [0, 6.5, 0.5],
+			"scale": [1.1, 1.1, 1]
+		},
+		"ground": {
+			"translation": [0, 6.5, 0],
+			"scale": [1.15, 1.15, 1]
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "psm:diamond_scimitar"
+    }
+  ],
+  "result": {
+    "item": "psm:netherite_scimitar",
+    "count": 1
+  }
+}

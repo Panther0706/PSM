@@ -2,7 +2,6 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "n",
-    "n",
     "N"
   ],
   "key": {
@@ -10,7 +9,7 @@
       "item": "minecraft:netherite_ingot"
     },
     "N": {
-      "item": "minecraft:netherite_sword"
+      "item": "psm:netherite_half_sword"
     }
   },
   "result": {

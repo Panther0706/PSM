@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "psm:netherite_dagger",
+      "psm:netherite_dagger_from_diamond",
+      "psm:netherite_kris",
+      "psm:netherite_kris_from_diamond",
+      "psm:netherite_half_sword",
+      "psm:netherite_half_sword_from_kris",
+      "psm:netherite_half_sword_from_diamond",
+      "psm:netherite_flammard",
+      "psm:netherite_flammard_from_kris",
+      "psm:netherite_flammard_from_diamond",
+      "psm:netherite_star_falchion",
+      "psm:netherite_star_falchion_from_diamond",
+      "psm:netherite_scimitar",
+      "psm:netherite_scimitar_from_diamond",
+      "psm:netherite_longsword",
+      "psm:netherite_longsword_from_diamond",
+      "psm:netherite_flamberge",
+      "psm:netherite_flamberge_from_diamond",
+      "psm:netherite_greatsword",
+      "psm:netherite_greatsword_from_diamond",
+      "psm:netherite_zweihander",
+      "psm:netherite_zweihander_from_diamond",
+      "psm:netherite_flammenschwert",
+      "psm:netherite_flammenschwert_from_diamond"
+    ]
+  },
+  "criteria": {
+    "has_netherite_bar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "item": "minecraft:netherite_ingot"
+        }]
+      }
+    },
+    "has_netherite_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "psm:netherite_dagger"
+      }
+    }
+  },
+
+  "requirements": [
+    [
+      "has_netherite_bar",
+      "has_netherite_recipe"
+    ]
+  ]
+}

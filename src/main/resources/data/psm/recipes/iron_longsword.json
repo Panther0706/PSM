@@ -2,7 +2,6 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "i",
-    "i",
     "I"
   ],
   "key": {
@@ -10,7 +9,7 @@
       "item": "minecraft:iron_ingot"
     },
     "I": {
-      "item": "minecraft:iron_sword"
+      "item": "psm:iron_half_sword"
     }
   },
   "result": {

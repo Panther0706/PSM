@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "d",
+    "D"
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "psm:diamond_longsword"
+    }
+  },
+  "result": {
+    "item": "psm:diamond_greatsword",
+    "count": 1
+  }
+}

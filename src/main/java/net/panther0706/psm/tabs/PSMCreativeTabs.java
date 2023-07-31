@@ -21,15 +21,43 @@ public class PSMCreativeTabs {
                     .title(Component.literal("Panther's Sword Mod"))
                     .icon(PSMWeapons.IRON_HALF_SWORD.get()::getDefaultInstance)
                     .displayItems((displayParameters, displayOutput) -> {
+                        //Iron
+                        displayOutput.accept(PSMWeapons.IRON_DAGGER.get());
+                        displayOutput.accept(PSMWeapons.IRON_KRIS.get());
                         displayOutput.accept(PSMWeapons.IRON_HALF_SWORD.get());
+                        displayOutput.accept(PSMWeapons.IRON_FLAMMARD.get());
+                        displayOutput.accept(PSMWeapons.IRON_STAR_FALCHION.get());
+                        displayOutput.accept(PSMWeapons.IRON_SCIMITAR.get());
                         displayOutput.accept(PSMWeapons.IRON_LONGSWORD.get());
                         displayOutput.accept(PSMWeapons.IRON_FLAMBERGE.get());
+                        displayOutput.accept(PSMWeapons.IRON_GREATSWORD.get());
+                        displayOutput.accept(PSMWeapons.IRON_ZWEIHANDER.get());
+                        displayOutput.accept(PSMWeapons.IRON_FLAMMENSCHWERT.get());
+                        //Diamond
+                        displayOutput.accept(PSMWeapons.DIAMOND_DAGGER.get());
+                        displayOutput.accept(PSMWeapons.DIAMOND_KRIS.get());
                         displayOutput.accept(PSMWeapons.DIAMOND_HALF_SWORD.get());
+                        displayOutput.accept(PSMWeapons.DIAMOND_FLAMMARD.get());
+                        displayOutput.accept(PSMWeapons.DIAMOND_STAR_FALCHION.get());
+                        displayOutput.accept(PSMWeapons.DIAMOND_SCIMITAR.get());
                         displayOutput.accept(PSMWeapons.DIAMOND_LONGSWORD.get());
                         displayOutput.accept(PSMWeapons.DIAMOND_FLAMBERGE.get());
+                        displayOutput.accept(PSMWeapons.DIAMOND_GREATSWORD.get());
+                        displayOutput.accept(PSMWeapons.DIAMOND_ZWEIHANDER.get());
+                        displayOutput.accept(PSMWeapons.DIAMOND_FLAMMENSCHWERT.get());
+                        //Netherite
+                        displayOutput.accept(PSMWeapons.NETHERITE_DAGGER.get());
+                        displayOutput.accept(PSMWeapons.NETHERITE_KRIS.get());
                         displayOutput.accept(PSMWeapons.NETHERITE_HALF_SWORD.get());
+                        displayOutput.accept(PSMWeapons.NETHERITE_FLAMMARD.get());
+                        displayOutput.accept(PSMWeapons.NETHERITE_STAR_FALCHION.get());
+                        displayOutput.accept(PSMWeapons.NETHERITE_SCIMITAR.get());
                         displayOutput.accept(PSMWeapons.NETHERITE_LONGSWORD.get());
                         displayOutput.accept(PSMWeapons.NETHERITE_FLAMBERGE.get());
+                        displayOutput.accept(PSMWeapons.NETHERITE_GREATSWORD.get());
+                        displayOutput.accept(PSMWeapons.NETHERITE_ZWEIHANDER.get());
+                        displayOutput.accept(PSMWeapons.NETHERITE_FLAMMENSCHWERT.get());
+                        //Unique
                         displayOutput.accept(PSMWeapons.DRAGONS_CLAW.get());
                         displayOutput.accept(PSMWeapons.BLOODBATH.get());
                         displayOutput.accept(PSMWeapons.FLAMEBERGE.get());
